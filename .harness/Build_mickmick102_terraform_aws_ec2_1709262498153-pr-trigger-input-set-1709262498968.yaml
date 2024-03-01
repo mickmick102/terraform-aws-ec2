@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_mickmick102_terraform_aws_ec2_1709262498153-pr-trigger-input-set
+  identifier: Build_mickmick102_terraform_aws_ec2_1709262498153prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_mickmick102_terraform_aws_ec2_1709262498153
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
